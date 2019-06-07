@@ -12,6 +12,7 @@ public class AppConfig {
 	    System.out.println("AppConfig load");
 		Product p = new Product();
 		p.setPrdId(999);
+		System.out.println("done");
 	    return p;
 	}
 
